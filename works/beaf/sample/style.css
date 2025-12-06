@@ -1,0 +1,57 @@
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+	font-size: 14px;
+	line-height: 1.5;
+}
+h1 {
+	color: #FFF;
+	background-color: #69F;
+	font-size: 24px;
+}
+
+
+
+h2 {
+	border: 2px solid #FC0;
+	color: #FC0;
+}
+h3 {
+	font-size: 16px;
+	color: #F9C;
+	border-bottom: 1px solid #F9C;
+}

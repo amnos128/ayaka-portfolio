@@ -1,0 +1,218 @@
+﻿* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+body {
+	line-height: 2;
+	color: #3f312b;
+	letter-spacing: 0.12rem;
+}
+
+h1, h2, h3 {
+	font-size: 100%;
+}
+
+h2 {
+	padding: 20px 0 30px 60px;
+	font-size: 20px;
+}
+
+h3 {
+	padding: 20px 0 15px 0;
+}
+
+.header {
+	/* position: relative;
+	background-image: url(img/top.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; */
+	/* height: 100vh; */
+	width: 100vw;
+	position: fixed;
+	.inner {
+		max-width: 100%;
+		margin: 0 auto;
+		display: flex;
+		padding: 0 50px;
+		justify-content: flex-end;
+		align-items: center;
+	}
+}
+
+/* .header h1 {
+	position: absolute;
+	margin: 0;
+} */
+
+.menu {
+	display: flex;
+	text-align: right;
+	justify-content: flex-end;
+}
+
+.menu ul {
+	display: flex;
+	gap: 40px;
+}
+
+.menu li {
+	list-style: none;
+}
+
+.hero {
+	background-image: url(img/top.png);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100vw;
+	background-repeat: no-repeat;
+}
+
+.wrapper {
+	width: 1100px;
+	margin: 0 auto;
+
+	/* padding-top: 20px; */
+}
+
+.works {
+	margin: 0 auto;
+	padding: 50px;
+	padding-top: 0;
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr); /* 2列 */
+	gap: 80px; /* 余白が欲しければ */
+	width: max-content;		/* ★中身の幅だけに縮む */
+	margin: 0 auto;
+}
+
+.tag_group {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+.tag {
+	border: 1px solid #ffd700;
+	padding: 2px 5px; /* 文字と枠の間の余白 */
+	border-radius: 15px; /* 角を丸くする */
+	display: inline-block; /* テキストの幅に合わせて枠を作る */
+	margin: 5px;
+}
+
+.work_item {
+	width: 350px;
+	float: left;
+}
+
+.w_img {
+	overflow: hidden;		/* はみ出し防止（重要） */
+}
+
+.w_img img {
+	transition: transform 0.4s ease;	/* アニメーション */
+}
+
+.w_img img:hover {
+	transform: scale(1.1);	/* ← ここで拡大 */
+}
+
+.w_info {
+	padding-top: 10px;
+}
+
+.bio-contents {
+	width: 900px;
+	margin: 0 auto;
+
+}
+
+.bio-contents img {
+	float: left;
+	padding: 20px;
+}
+
+.bio-contents h3 {
+	padding: 30px 0 20px 0;
+}
+
+.text {
+	width: 700px;
+	float: left;
+}
+
+.contact {
+	background-color: #fcf9f7;
+	height: 300px;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+}
+
+.footer_menu {
+	flex: 1;
+	padding-left: 50px;
+}
+
+.footer_menu ul {
+	display: flex;
+	gap: 40px;
+}
+
+.footer_menu li {
+	list-style: none;
+}
+
+.footer_menu p {
+	margin-right: 20px;
+}
+
+#credit {
+	flex: 1;
+	text-align: center;
+	margin: 0;
+}
+
+.footer_spacer {
+	flex: 1;
+}
+
+.clr {
+	clear: both;
+}
+
+body,a,button {
+	cursor: none;
+}
+
+.cursor {
+	position: fixed;
+	width: 12px;
+	height: 12px;
+	background: rgba(120, 120, 120, 0.6);
+	border-radius: 50%;
+	transform: translate(-50%, -50%);
+	transform-origin: center center;
+	pointer-events: none;
+	z-index: 999999;
+	transition: transform 0.7s ease, background 0.7s ease;
+	/* left 0.25s ease,
+		top 0.25s ease; */
+}
+
+.cursor.hover {
+	transform: translate(-50%, -50%) scale(5);
+
+	background: rgba(255, 255, 122, 0.3);
+}

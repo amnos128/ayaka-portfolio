@@ -1,0 +1,39 @@
+﻿body {
+	line-height: 1.8;
+	font-size: 14px;
+}
+
+h1 {
+	background-color:#b22222;
+	color:#fff;
+}
+
+.subtitle {
+	font-weight:bold;
+	font-size: 18px;
+}
+
+h2 {
+	border: 1px solid #b22222;
+	border-left: 20px solid #b22222;
+	padding: 10px;
+	padding-left:20px;
+}
+
+h3 {
+	border-bottom: 1px solid #b22222;
+}
+
+.material li {
+	padding-top: 0;
+}
+
+h3 {
+	margin-bottom: 0;
+}
+
+h4 {
+	background-color: #b22222;
+	padding: 5px;
+	color: #fff;
+}
